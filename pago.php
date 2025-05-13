@@ -16,8 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 // Incluir la librería Stripe
 require_once 'vendor/autoload.php';
 
-// Configurar la clave secreta de Stripe (asegúrate de usar tu propia clave secreta)
-\Stripe\Stripe::setApiKey('sk_test_51M6qr2JNj3F1KkduBo9Sj3NN24sbRmGHhtd50kMT25KV8OtH24VtJPcfiDJcodTD5xLZlMkUUIxQbytq6XQN3GMN00is5lC9W2');
+
+\Stripe\Stripe::setApiKey('sk_test_51RNfDME40jbMpv95rrhu2rg6ZVXnMPQbpgsDhNclTeDacH21dwmvwYnRSWGOEcZCmvyL3QBTNlP4zop7GTxmrRXk009o45r8oV');
 
 // Configurar el Content-Type como JSON
 header('Content-Type: application/json');
